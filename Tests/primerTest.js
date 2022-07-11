@@ -638,11 +638,22 @@ export default class RegistroFormulario extends Comands{
         // Se da la orden de realizar un desplazamiento de 200 px hacia abajo.
         await this.scroll(0,200);
 
+        ///Despues damos 1 segundo de espera
+        await this.delay(1);
+
+        // Se da la orden de realizar un desplazamiento de 200 px hacia abajo.
+        await this.scroll(0,200);
+
         //Despues damos 1 segundo de espera
         await this.delay(1);
 
-        // Se da la orden de buscar el elemento con xPath //div[@class='subjects-auto-complete__value-container subjects-auto-complete__value-container--is-multi css-1hwfws3']
-        let materia =  await this.getElementByxPath("//div[@class='subjects-auto-complete__value-container subjects-auto-complete__value-container--is-multi css-1hwfws3']");
+         // Se da la orden 
+         await this.scroll(0,200);
+
+         await this.delay(2);
+
+        // Se da la orden de buscar el elemento con id subjectsInput
+        let materia =  await this.getElementById("subjectsInput");
 
         // Se da la orden de hacer click sobre le campo asignatura / materia
         await this.click(materia);
@@ -651,7 +662,27 @@ export default class RegistroFormulario extends Comands{
         await this.delay(1);
 
         // Se da la orden de insertar texto en el campo
-        await this.enter(materia, "maths");
+        await this.sendKey(materia,"M")
+        
+        //Despues damos 1 segundo de espera
+        await this.delay(1);
+
+        let OpcionMateria = await this.getElementById("react-select-2-option-0");
+        
+        await this.click(OpcionMateria);
+
+        //Despues damos 1 segundo de espera
+        await this.delay(1); 
+
+        // Se da la orden de hacer click sobre le campo asignatura / materia
+        await this.click(materia);
+
+        //Despues damos 1 segundo de espera
+        await this.delay(1);
+
+        // Se da la orden de insertar texto en el campo
+        await this.sendKey(materia,"A")
+    
 
         //Despues damos 3 segundo de espera
         await this.delay(3);
@@ -793,11 +824,22 @@ export default class RegistroFormulario extends Comands{
         // Se da la orden de realizar un desplazamiento de 200 px hacia abajo.
         await this.scroll(0,200);
 
+        ///Despues damos 1 segundo de espera
+        await this.delay(1);
+
+        // Se da la orden de realizar un desplazamiento de 200 px hacia abajo.
+        await this.scroll(0,200);
+
         //Despues damos 1 segundo de espera
         await this.delay(1);
 
-        // Se da la orden de buscar el elemento con xPath //div[@class='subjects-auto-complete__value-container subjects-auto-complete__value-container--is-multi css-1hwfws3']
-        let materia =  await this.getElementByxPath("//div[@class='subjects-auto-complete__value-container subjects-auto-complete__value-container--is-multi css-1hwfws3']");
+         // Se da la orden 
+         await this.scroll(0,200);
+
+         await this.delay(2);
+
+        // Se da la orden de buscar el elemento con id subjectsInput
+        let materia =  await this.getElementById("subjectsInput");
 
         // Se da la orden de hacer click sobre le campo asignatura / materia
         await this.click(materia);
@@ -806,7 +848,20 @@ export default class RegistroFormulario extends Comands{
         await this.delay(1);
 
         // Se da la orden de insertar texto en el campo
-        await this.enter(materia, "maths");
+        await this.sendKey(materia,"M")
+        
+        //Despues damos 1 segundo de espera
+        await this.delay(1);
+
+        let OpcionMateria = await this.getElementById("react-select-2-option-0");
+        
+        await this.click(OpcionMateria);
+
+        //Despues damos 1 segundo de espera
+        await this.delay(1); 
+
+        // Se da la orden de hacer click sobre le campo asignatura / materia
+        await this.click(materia);
 
         //Despues damos 1 segundo de espera
         await this.delay(1);
@@ -960,11 +1015,22 @@ export default class RegistroFormulario extends Comands{
         // Se da la orden de realizar un desplazamiento de 200 px hacia abajo.
         await this.scroll(0,200);
 
+        ///Despues damos 1 segundo de espera
+        await this.delay(1);
+
+        // Se da la orden de realizar un desplazamiento de 200 px hacia abajo.
+        await this.scroll(0,200);
+
         //Despues damos 1 segundo de espera
         await this.delay(1);
 
-        // Se da la orden de buscar el elemento con xPath //div[@class='subjects-auto-complete__value-container subjects-auto-complete__value-container--is-multi css-1hwfws3']
-        let materia =  await this.getElementByxPath("//div[@class='subjects-auto-complete__value-container subjects-auto-complete__value-container--is-multi css-1hwfws3']");
+         // Se da la orden 
+         await this.scroll(0,200);
+
+         await this.delay(2);
+
+        // Se da la orden de buscar el elemento con id subjectsInput
+        let materia =  await this.getElementById("subjectsInput");
 
         // Se da la orden de hacer click sobre le campo asignatura / materia
         await this.click(materia);
@@ -973,7 +1039,20 @@ export default class RegistroFormulario extends Comands{
         await this.delay(1);
 
         // Se da la orden de insertar texto en el campo
-        await this.enter(materia, "maths");
+        await this.sendKey(materia,"M")
+        
+        //Despues damos 1 segundo de espera
+        await this.delay(1);
+
+        let OpcionMateria = await this.getElementById("react-select-2-option-0");
+        
+        await this.click(OpcionMateria);
+
+        //Despues damos 1 segundo de espera
+        await this.delay(1); 
+
+        // Se da la orden de hacer click sobre le campo asignatura / materia
+        await this.click(materia);
 
         //Despues damos 1 segundo de espera
         await this.delay(1);
@@ -1136,11 +1215,22 @@ export default class RegistroFormulario extends Comands{
         // Se da la orden de realizar un desplazamiento de 200 px hacia abajo.
         await this.scroll(0,200);
 
+        ///Despues damos 1 segundo de espera
+        await this.delay(1);
+
+        // Se da la orden de realizar un desplazamiento de 200 px hacia abajo.
+        await this.scroll(0,200);
+
         //Despues damos 1 segundo de espera
         await this.delay(1);
 
-        // Se da la orden de buscar el elemento con xPath //div[@class='subjects-auto-complete__value-container subjects-auto-complete__value-container--is-multi css-1hwfws3']
-        let materia =  await this.getElementByxPath("//div[@class='subjects-auto-complete__value-container subjects-auto-complete__value-container--is-multi css-1hwfws3']");
+         // Se da la orden 
+         await this.scroll(0,200);
+
+         await this.delay(2);
+
+        // Se da la orden de buscar el elemento con id subjectsInput
+        let materia =  await this.getElementById("subjectsInput");
 
         // Se da la orden de hacer click sobre le campo asignatura / materia
         await this.click(materia);
@@ -1149,10 +1239,17 @@ export default class RegistroFormulario extends Comands{
         await this.delay(1);
 
         // Se da la orden de insertar texto en el campo
-        await this.enter(materia, "maths");
-
+        await this.sendKey(materia,"M")
+        
         //Despues damos 1 segundo de espera
         await this.delay(1);
+
+        let OpcionMateria = await this.getElementById("react-select-2-option-0");
+        
+        await this.click(OpcionMateria);
+
+        //Despues damos 1 segundo de espera
+        await this.delay(1); 
 
         // Se da la orden 
         await this.scroll(0,200);
@@ -1321,11 +1418,22 @@ export default class RegistroFormulario extends Comands{
         // Se da la orden de realizar un desplazamiento de 200 px hacia abajo.
         await this.scroll(0,200);
 
+        ///Despues damos 1 segundo de espera
+        await this.delay(1);
+
+        // Se da la orden de realizar un desplazamiento de 200 px hacia abajo.
+        await this.scroll(0,200);
+
         //Despues damos 1 segundo de espera
         await this.delay(1);
 
-        // Se da la orden de buscar el elemento con xPath //div[@class='subjects-auto-complete__value-container subjects-auto-complete__value-container--is-multi css-1hwfws3']
-        let materia =  await this.getElementByxPath("//div[@class='subjects-auto-complete__value-container subjects-auto-complete__value-container--is-multi css-1hwfws3']");
+         // Se da la orden 
+         await this.scroll(0,200);
+
+         await this.delay(2);
+
+        // Se da la orden de buscar el elemento con id subjectsInput
+        let materia =  await this.getElementById("subjectsInput");
 
         // Se da la orden de hacer click sobre le campo asignatura / materia
         await this.click(materia);
@@ -1334,7 +1442,33 @@ export default class RegistroFormulario extends Comands{
         await this.delay(1);
 
         // Se da la orden de insertar texto en el campo
-        await this.enter(materia, "maths");
+        await this.sendKey(materia,"M")
+        
+        //Despues damos 1 segundo de espera
+        await this.delay(1);
+
+        let OpcionMateria = await this.getElementById("react-select-2-option-0");
+        
+        await this.click(OpcionMateria);
+
+        //Despues damos 1 segundo de espera
+        await this.delay(1); 
+
+        // Se da la orden de hacer click sobre le campo asignatura / materia
+        await this.click(materia);
+
+        //Despues damos 1 segundo de espera
+        await this.delay(1);
+
+        // Se da la orden de insertar texto en el campo
+        await this.sendKey(materia,"A")
+        
+        //Despues damos 1 segundo de espera
+        await this.delay(1);
+
+        let OpcionMateria1= await this.getElementById("react-select-2-option-2");
+        
+        await this.click(OpcionMateria1);
 
         //Despues damos 1 segundo de espera
         await this.delay(1);
@@ -1515,11 +1649,22 @@ export default class RegistroFormulario extends Comands{
         // Se da la orden de realizar un desplazamiento de 200 px hacia abajo.
         await this.scroll(0,200);
 
+        ///Despues damos 1 segundo de espera
+        await this.delay(1);
+
+        // Se da la orden de realizar un desplazamiento de 200 px hacia abajo.
+        await this.scroll(0,200);
+
         //Despues damos 1 segundo de espera
         await this.delay(1);
 
-        // Se da la orden de buscar el elemento con xPath //div[@class='subjects-auto-complete__value-container subjects-auto-complete__value-container--is-multi css-1hwfws3']
-        let materia =  await this.getElementByxPath("//div[@class='subjects-auto-complete__value-container subjects-auto-complete__value-container--is-multi css-1hwfws3']");
+         // Se da la orden 
+         await this.scroll(0,200);
+
+         await this.delay(2);
+
+        // Se da la orden de buscar el elemento con id subjectsInput
+        let materia =  await this.getElementById("subjectsInput");
 
         // Se da la orden de hacer click sobre le campo asignatura / materia
         await this.click(materia);
@@ -1528,7 +1673,33 @@ export default class RegistroFormulario extends Comands{
         await this.delay(1);
 
         // Se da la orden de insertar texto en el campo
-        await this.enter(materia, "maths");
+        await this.sendKey(materia,"M")
+        
+        //Despues damos 1 segundo de espera
+        await this.delay(1);
+
+        let OpcionMateria = await this.getElementById("react-select-2-option-0");
+        
+        await this.click(OpcionMateria);
+
+        //Despues damos 1 segundo de espera
+        await this.delay(1); 
+
+        // Se da la orden de hacer click sobre le campo asignatura / materia
+        await this.click(materia);
+
+        //Despues damos 1 segundo de espera
+        await this.delay(1);
+
+        // Se da la orden de insertar texto en el campo
+        await this.sendKey(materia,"A")
+        
+        //Despues damos 1 segundo de espera
+        await this.delay(1);
+
+        let OpcionMateria1= await this.getElementById("react-select-2-option-2");
+        
+        await this.click(OpcionMateria1);
 
         //Despues damos 1 segundo de espera
         await this.delay(1);
@@ -1784,27 +1955,50 @@ export default class RegistroFormulario extends Comands{
          //Despues damos 1 segundo de espera
          await this.delay(1);
 
-         // Se da la orden de buscar el elemento con clase react-select-3-input
-         let Estado = await this.getElementById("state");
+        //se da la orden de reducir el contenedor principal del formulario a un alto de 800px
+        await this.resizeContainer("practice-form-wrapper",800);
+
+        //Despues damos 1 segundo de espera
+        await this.delay(1);
+
+         // Se da la orden 
+         await this.scroll(0,700);
+
+           //Despues damos 1 segundo de espera
+        await this.delay(1);
+
+
+        // Se da la orden de buscar el elemento con clase react-select-3-input
+        let Estado = await this.getElementById("state");
  
-         // Se da la orden de hacer click en el campo estado
-         await this.click(Estado);
+        // Se da la orden de hacer click en el campo estado
+        await this.click(Estado);
  
-          //Despues damos 1 segundo de espera
-         await this.delay(1);
+        // //Despues damos 1 segundo de espera
+
+        // Se da la orden de buscar el elmento con id react-select-3-option-1
+        let opcionEstado = await this.getElementById("react-select-3-option-1");
+         
+        // se da la orden de hacer clic sobre el elemento opcionEstado
+        await this.click(opcionEstado);
  
-         // Se da la orden de insertar texto en el campo estado
-         await this.sendKey(Estado,"Haryana");
- 
-          //Despues damos 1 segundo de espera
-         await this.delay(1);
- 
-         //se da la orden de buscar el elemento con la clase css-1wy0on6
-         let ciudad = await this.getElementById("city");
- 
-         // Se da la orden de insertar texto en el campo ciudad
-         await this.sendKey(ciudad,"Karnal");
- 
+        //se da la orden de buscar el elemento con la clase css-1wy0on6
+        let ciudad = await this.getElementById("city"); 
+      
+        //Despues damos 1 segundo de espera
+        await this.delay(1);
+
+        //se da la orden de hacer clic sobre el elemento ciudad
+        await this.click(ciudad);
+
+        //Despues damos 1 segundo de espera
+        await this.delay(1);
+
+        // se da la orden de buscar el elemento con id V 
+        let opcionCiudad = await this.getElementById("react-select-4-option-0");
+
+        // se da la orden de ahcer clic en elemento llamado opcionCiudad
+        await this.click(opcionCiudad);
 
         //Despues damos 3 segundo de espera
         await this.delay(3);
@@ -1826,10 +2020,10 @@ export default class RegistroFormulario extends Comands{
         await this.getUrl("https://demoqa.com/automation-practice-form");
 
         // // ahora se realiza una espera de 2 segundos 
-        // await this.delay(2);
+        await this.delay(1);
 
          // aquí se desplaza la pantalla hacia abajo haciendo un scroll 150px
-        await this.scroll(0,10000);
+        await this.scroll(0,150);
 
         // se realiza una espera de 1 segundos antes de realizar un scroll
         await this.delay(1);
@@ -1954,8 +2148,8 @@ export default class RegistroFormulario extends Comands{
 
          await this.delay(2);
 
-        // Se da la orden de buscar el elemento con xPath //div[@class='subjects-auto-complete__value-container subjects-auto-complete__value-container--is-multi css-1hwfws3']
-        let materia =  await this.getElementByxPath("//div[@class='subjects-auto-complete__value-container subjects-auto-complete__value-container--is-multi css-1hwfws3']");
+        // Se da la orden de buscar el elemento con id subjectsInput
+        let materia =  await this.getElementById("subjectsInput");
 
         // Se da la orden de hacer click sobre le campo asignatura / materia
         await this.click(materia);
@@ -1964,11 +2158,37 @@ export default class RegistroFormulario extends Comands{
         await this.delay(1);
 
         // Se da la orden de insertar texto en el campo
-        await this.enter(materia, "M");
+        await this.sendKey(materia,"M")
+        
+        //Despues damos 1 segundo de espera
+        await this.delay(1);
+
+        let OpcionMateria = await this.getElementById("react-select-2-option-0");
+        
+        await this.click(OpcionMateria);
+
+        //Despues damos 1 segundo de espera
+        await this.delay(1); 
+
+        // Se da la orden de hacer click sobre le campo asignatura / materia
+        await this.click(materia);
 
         //Despues damos 1 segundo de espera
         await this.delay(1);
- 
+
+        // Se da la orden de insertar texto en el campo
+        await this.sendKey(materia,"A")
+        
+        //Despues damos 1 segundo de espera
+        await this.delay(1);
+
+        let OpcionMateria1= await this.getElementById("react-select-2-option-2");
+        
+        await this.click(OpcionMateria1);
+
+        //Despues damos 1 segundo de espera
+        await this.delay(1); 
+
         // Se da la orden de buscar el elemento con xPath //label[normalize-space()='Sports']
         let hobbie1 = await this.getElementByxPath("//label[normalize-space()='Sports']");
  
@@ -2014,6 +2234,7 @@ export default class RegistroFormulario extends Comands{
         //Despues damos 1 segundo de espera
         await this.delay(1);
 
+        //se da la orden de reducir el contenedor principal del formulario a un alto de 800px
         await this.resizeContainer("practice-form-wrapper",800);
 
         //Despues damos 1 segundo de espera
@@ -2032,40 +2253,73 @@ export default class RegistroFormulario extends Comands{
         // Se da la orden de hacer click en el campo estado
         await this.click(Estado);
  
+        // //Despues damos 1 segundo de espera
+        await this.delay(1);
+
+        // Se da la orden de buscar el elmento con id react-select-3-option-1
+        let opcionEstado = await this.getElementById("react-select-3-option-1");
+         
+        // se da la orden de hacer clic sobre el elemento opcionEstado
+        await this.click(opcionEstado);
+        
         //Despues damos 1 segundo de espera
         await this.delay(1);
  
-        // // Se da la orden de insertar texto en el campo estado
-        // await this.sendKey(Estado,"Haryana");
- 
-        // //Despues damos 1 segundo de espera
-        // await this.delay(1);
- 
-        // //se da la orden de buscar el elemento con la clase css-1wy0on6
-        // let ciudad = await this.getElementById("city");
- 
-        // // Se da la orden de insertar texto en el campo ciudad
-        // await this.sendKey(ciudad,"Karnal");
+        //se da la orden de buscar el elemento con la clase css-1wy0on6
+        let ciudad = await this.getElementById("city"); 
+      
+        //Despues damos 1 segundo de espera
+        await this.delay(1);
 
-        // //Despues damos 1 segundo de espera
-        // await this.delay(1);
+        //se da la orden de hacer clic sobre el elemento ciudad
+        await this.click(ciudad);
+
+        //Despues damos 1 segundo de espera
+        await this.delay(1);
+
+        // se da la orden de buscar el elemento con id V 
+        let opcionCiudad = await this.getElementById("react-select-4-option-0");
+
+        // se da la orden de ahcer clic en elemento llamado opcionCiudad
+        await this.click(opcionCiudad);
+
+        //Despues damos 1 segundo de espera
+        await this.delay(1);
 
         // Se da la orden de buscar el elemento con id submit
-       let boton =  await this.getElementByxPath("//button[@id='submit']");
+       let boton =  await this.getElementById("submit");
 
-       // Se da la orden de hacer click sobre el boton Submit / Enviar
+        // Se da la orden de hacer click sobre el boton Submit / Enviar
         await this.click(boton);
 
-        //Despues damos 3 segundo de espera
-        await this.delay(3);
+        // //Despues damos 3 segundo de espera
+        await this.delay(2);
 
         await this.scroll(0,300);
 
         await this.delay(2);
 
-        await this.clickBtnModal("closeLargeModal");
+        // let cerrarModal = await this.getElementById("closeLargeModal");
+
+        // await this.click(cerrarModal);
 
 
+    }
+
+    async FindPage(){
+      
+        await this.newGetUrl();
+
+        // despues de abrir el navegador espera 2 segundos
+        await this.delay(2);
+
+        // ahora introduce la url en la barra de direcciones del navegador.
+        await this.getUrl("http://automationpractice.com");
+
+        // // ahora se realiza una espera de 2 segundos 
+        await this.delay(4);
+
+        await this.close()
     }
 
     

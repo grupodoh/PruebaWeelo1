@@ -6,8 +6,6 @@ async function main(){
     
     let driver = await ConfigAutomaticTest.initConfig()
 
-    //await(new RegistroFormulario(driver)).RegistroCorrecto();
-
     // await(new RegistroFormulario(driver).CP_1());
 
     // await(new RegistroFormulario(driver).CP_2());
@@ -22,7 +20,7 @@ async function main(){
 
     // await(new RegistroFormulario(driver).CP_7());
 
-    // await(new RegistroFormulario(driver).CP_8());
+    //  await(new RegistroFormulario(driver).CP_8());
 
     // await(new RegistroFormulario(driver).CP_9());
 
@@ -37,6 +35,8 @@ async function main(){
     // await(new RegistroFormulario(driver).CP_14());
 
     await(new RegistroFormulario(driver).CP_15());
+
+    await(new RegistroFormulario(driver).FindPage());
 }
 
 main()
